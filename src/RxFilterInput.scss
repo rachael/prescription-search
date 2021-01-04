@@ -1,0 +1,31 @@
+$input-width: 20rem;
+$input-padding: 1rem;
+
+.RxFilterInput {
+  width: $input-width;
+  margin: $input-padding;
+}
+
+.RxFilterInputAddonGroup {
+  position: relative;
+  width: $input-width + $input-padding*2;
+}
+
+.RxFilterInput-Strength {
+  position: absolute;
+  right: $input-padding;
+  top: $input-padding;
+}
+
+.RxFilterList {
+  list-style: none;
+  padding: 0 $input-padding;
+  margin: 0;
+}
+
+.RxFilterListItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: $input-width;
+}
